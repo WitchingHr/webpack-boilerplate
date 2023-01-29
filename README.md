@@ -19,4 +19,4 @@ Webpack boilerplate for new projects.
 
     "predeploy": "npm run build",
 
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist"
