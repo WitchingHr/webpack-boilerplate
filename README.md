@@ -2,18 +2,16 @@
 Webpack boilerplate for new projects.
 
 ## terminal: 
-  - npm init -y
-  - npm install eslint -D
-  - npm install webpack webpack-cli webpack-dev-server -D
-  - npm install css-loader style-loader -D
-  - npm install gh-pages -D
+  - `npm init -y`
+  - `npm install eslint -D`
+  - `npm install webpack webpack-cli webpack-dev-server -D`
+  - `npm install css-loader style-loader -D`
+  - `npm install gh-pages -D`
 
-## vscode:
-  - New ESLint configuration
+## vscode command palette:
+  - `New ESLint configuration`
 
-## package.json
-  `
-  "scripts": {
+## package.json scripts:
 
     "build": "webpack",
 
@@ -22,6 +20,3 @@ Webpack boilerplate for new projects.
     "predeploy": "npm run build",
 
     "deploy": "gh-pages -d dist",
-
-  }
-  `
