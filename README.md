@@ -4,12 +4,10 @@ Webpack boilerplate for new projects.
 ## terminal: 
   - `npm init -y`
   - `npm install eslint -D`
+  - `npm init @eslint/config`
   - `npm install webpack webpack-cli webpack-dev-server -D`
   - `npm install css-loader style-loader -D`
   - `npm install gh-pages -D`
-
-## vscode command palette:
-  - `New ESLint configuration`
 
 ## package.json scripts:
 
