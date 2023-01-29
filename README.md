@@ -1,4 +1,5 @@
 # webpack-boilerplate
+Webpack boilerplate for new projects.
 
 ## terminal: 
   - npm init -y
@@ -11,9 +12,16 @@
   - New ESLint configuration
 
 ## package.json
+  `
   "scripts": {
+
     "build": "webpack",
+
     "start": "webpack serve --open",
+
     "predeploy": "npm run build",
+
     "deploy": "gh-pages -d dist",
-}
+
+  }
+  `
