@@ -8,9 +8,14 @@ Webpack boilerplate for new projects.
   - `npm install webpack webpack-cli webpack-dev-server -D`
   - `npm install css-loader style-loader -D`
   - `npm install gh-pages -D`
+  - `npm install jest -D`
 
 ## package.json scripts:
 
+    "test": "jest",
+    
+    "watch": "jest --watch *.js",
+    
     "build": "webpack",
 
     "start": "webpack serve --open",
