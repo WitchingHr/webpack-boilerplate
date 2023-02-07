@@ -9,6 +9,7 @@ Webpack boilerplate for new projects.
   - `npm install css-loader style-loader -D`
   - `npm install gh-pages -D`
   - `npm install jest -D`
+  - `npm install @babel/preset-env -D`
 
 ## package.json scripts:
 
@@ -23,3 +24,6 @@ Webpack boilerplate for new projects.
     "predeploy": "npm run build",
 
     "deploy": "gh-pages -d dist"
+
+## .babelrc:
+`{ "presets": ["@babel/preset-env"] }`
